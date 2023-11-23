@@ -24,11 +24,16 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
-
-.title {
+.bigTitle {
     color: #36187D;
     text-align: center;
     font-size: 64px;
+    line-height: 70.4px;
+}
+.title {
+    color: #36187D;
+    text-align: center;
+    font-size: 44.8px;
     line-height: 70.4px;
 }
 

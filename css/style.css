@@ -1,0 +1,123 @@
+/* ==============================CONTACTS============================ */
+
+.contacts {
+    padding: 96px 0;
+}
+
+.contacts-bigTitle {
+    margin-bottom: 4.39px;
+}
+
+.contacts-text {
+    margin-bottom: 50.8px;
+    text-align: center;
+}
+.contacts-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 50.8px;
+    width: 326.6px;
+    border-radius: 48px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: -8px -8px 16px 0px #FFF, 9.6px 9.6px 19.2px 0px #D2DCE9;
+}
+.contacts-item__image {
+    
+    margin-bottom: 27px;
+    width: 64px;
+    height: 64px;
+}
+.contacts-item__title {
+    margin-bottom: 16.79px;
+    color: #36187D;
+    font-family: Bellota Text;
+    font-size: 27.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40.8px;
+}
+.contacts-item__text {
+    color: #6C758F;
+
+text-align: center;
+font-family: Bellota Text;
+font-size: 19.2px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.8px;
+}
+
+/* ==============================CONTACTS END============================ */
+
+
+
+
+
+
+/* ==============================FEEDBACK============================ */
+
+.feedback {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 272px;
+}
+
+.feedback-title {
+    margin-bottom: 30px;    
+}
+.feedback-text {
+    margin-bottom: 40px;
+    max-width: 745px;
+    text-align: center;
+    letter-spacing: 0.96px;
+}
+.feedback-form {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.feedback-form__input {
+    width: 538px;
+    height: 70px;
+    margin-bottom: 23px;
+    color: #36187D;
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 48px;
+    background: #EDEFF3;
+    box-shadow: 1px 1px 2px 0px #D2DCE9 inset;
+    padding: 24px 32px;
+
+}
+
+.feedback-form__input::placeholder {
+    color: #36187D;
+    font-size: 17.6px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feedback-submit {
+    width: 180.02px;
+    color: #FFF;
+    font-size: 19.2px;
+    line-height: 28.8px;
+    border-radius: 32px;
+    border: 1px solid #35B8FC;
+    background: #35B8FC;
+    padding: 18px 30px 19px 29px;
+}
+
+/* ==============================FEEDBACK END============================ */
