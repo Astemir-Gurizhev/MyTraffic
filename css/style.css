@@ -1,3 +1,27 @@
+/* ==============================CLIENTS============================ */
+
+.clients {
+    padding-top: 96px;
+    padding-bottom: 48px;
+}
+
+.clients-title {
+    margin-bottom: 45.27px;
+}
+.clients-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 48px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.client-image {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* ==============================CLIENTS END============================ */
+
 /* ==============================CONTACTS============================ */
 
 .contacts {
