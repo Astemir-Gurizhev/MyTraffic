@@ -10,8 +10,7 @@ questItems.forEach(item => {
 
         console.log(event.currentTarget);
         questArrows.forEach(item =>{
-            item.addEventListener('click', (event)=> {
-                
+            item.addEventListener('click', (event)=> { 
                 event.target.classList.toggle("quest-item__arrow-active")
             })
         })
