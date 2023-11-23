@@ -105,10 +105,16 @@
 
 .quest-item__text {
     display: none;
+    margin-bottom: 56px;
+   margin-left: 64px;
+   margin-right: 64px;
+ 
 }
 .quest-item__text-active {
     display: block;
+    
 }
+
 /* ==============================QUESTION END============================ */
 /* ==============================CLIENTS============================ */
 
