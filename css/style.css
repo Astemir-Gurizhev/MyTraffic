@@ -1,3 +1,71 @@
+/* ===============================FIRST================================ */
+
+.first{
+    padding-top: 207px;
+}
+.first-subtitle {
+    color: #36187D;
+    font-size: 27.2px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40.8px; /* 150% */
+    margin-bottom: 30px;
+}
+.first-row {
+    display: flex;
+    align-items: center;
+    
+}
+.first-left {
+    max-width: 475px ;
+    color: #0196E3;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70.4px; /* 110% */
+    border-right: 3px solid #0196E3;
+    margin-right: 78px;
+}
+.first-right {
+    color: #331972;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.8px; /* 139.583% */
+    letter-spacing: -0.48px;
+    max-width: 466px;
+}
+.fisrt-btn{
+    margin-top: 123px;
+}
+.fisrt-btn__link {
+  color: #0196E3;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70.4px; /* 391.111% */
+  border-radius: 48px;
+  background: rgba(255, 255, 255, 0.00);
+  box-shadow: -8px -8px 16px 0px #FFF, 9.6px 9.6px 19.2px 0px #D2DCE9;
+  padding: 13px 112px 13px 112px;
+  text-align: center;
+  position: relative;
+  margin-top: 123px;
+}
+
+.fisrt-btn__link::after {
+  content: "";
+  position: absolute;
+  align-items: center;
+  width: 31px;
+  height: 19px;
+  background: url("/images/first/Vector.svg") ;
+  top: 15px;
+  left: 280px;
+}
+/* ===============================FIRST_END========================== */
+
+
 /* ==============================CLIENTS============================ */
 
 .clients {
