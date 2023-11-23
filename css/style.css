@@ -63,7 +63,76 @@
   top: 15px;
   left: 280px;
 }
-/* ==============================FIRST============================ */
+/* ==============================FIRST END============================ */
+
+
+
+
+/* ==============================podhod============================ */
+
+.podhod {
+    padding-top: 66px;
+    padding-bottom: 90px;
+}
+
+
+.podhod-about {
+}
+.podhod-row {
+    display: flex;
+}
+.podhod-left {
+    flex: 50%;
+}
+
+.podhod-left__title {
+    text-align-last: left;
+    margin-bottom: 20px;
+}
+.podhod-left__text {
+  
+}
+.podhod-right {
+    flex: 50%;
+    
+}
+.podhod-right__analiz {
+}
+
+.podhod-right__polosa {
+}
+.podhod-right__polosaActive {
+}
+
+/* ==============================podhod END============================ */
+
+
+
+
+/* ==============================GUARD============================ */
+
+.guard {
+    padding-top: 60px;
+    padding-bottom: 34.8px;
+}
+.guard-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guard-text {
+    text-align: center;
+}
+
+
+
+/* ==============================GUARD END============================ */
+
+
+
+
+
 
 /* ==============================QUESTION============================ */
 
@@ -94,11 +163,7 @@
     padding: 32px;
 }
 
-.quest-item__question {
-}
-.quest-item__arrow {
-    
-}
+
 .quest-item__arrow-active {
     transform: rotate(180deg);
 }
