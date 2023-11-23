@@ -1,0 +1,31 @@
+.footer {
+    padding: 82px 0;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 34.7px;
+}
+.footer-icon {
+    padding: 13px;
+}
+.footer-icon:not(:last-child) {
+    margin-right: 17px;
+}
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-menu__item {
+    padding: 12.7px 0;
+}
+.footer-menu__item:not(:last-child) {
+    margin-right: 48px;
+}
+.footer-menu__link {
+    color: #0196E3;
+    font-size: 19.2px;
+    line-height: 28.8px;
+}
