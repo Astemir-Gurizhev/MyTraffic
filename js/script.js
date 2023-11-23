@@ -1,15 +1,17 @@
 let questItems = document.querySelectorAll(".quest-item")
 
-questItems.forEach(item =>{
-    console.log(item);
-    item.addEventListener("click", (event) => {
-        console.log(event.currentTarget);
-        let itemArrow = event.currentTarget.querySelector(".quest-item__arrow")
-        itemArrow.classList.toggle("quest-item__arrow-active")
-        let questText = event.currentTarget.querySelector(".quest-item__text")
-        questText.classList.toggle("quest-item__text-active")
+
+
+questItems.forEach(item => {
+    item.addEventListener("click", (event)=>{
+        
+        let questArrow = event.currentTarget.querySelector('.quest-item__arrow')
+        
+        let questTexts = event.currentTarget.querySelector('.quest-item__text')
+
+        questArrow.classList.toggle('quest-item__arrow-active')
+        questTexts.classList.toggle('quest-item__text-active')
+
     })
 })
-        
-
 
