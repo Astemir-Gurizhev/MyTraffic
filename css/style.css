@@ -1,3 +1,46 @@
+/* ==============================QSTN============================ */
+
+.qstn {
+}
+.qstn-title {
+}
+.qstn-items {
+}
+.qstn-item {
+    cursor: pointer;
+    
+}
+.qstn-item__row {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+.qstn-item__question {
+}
+.qstn-item__arrow {
+    
+}
+.qstn-item__arrow-active {
+transform: rotate(180deg);
+}
+
+.qstn-item__text {
+padding-left: 32px;
+display: none;
+}
+.qstn-item__text-active {
+    display: block;
+}
+
+
+/* ==============================QSTN END============================ */
+
+
+
+
+
 /* ==============================CLIENTS============================ */
 
 .clients {
