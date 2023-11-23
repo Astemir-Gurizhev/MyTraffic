@@ -24,3 +24,22 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.title {
+    color: #36187D;
+    text-align: center;
+    font-size: 64px;
+    line-height: 70.4px;
+}
+
+.subtitle {
+    color: #36187D;
+    font-size: 27.2px;
+    line-height: 40.8px;
+}
+
+.text {
+    color: #6C758F;
+    font-size: 19.2px;
+    line-height: 28.8px;
+}
