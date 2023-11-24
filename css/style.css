@@ -68,6 +68,86 @@
 
 
 
+
+/* ==============================TEAM============================ */
+
+
+/* ==============================TEAM END============================ */
+
+.team {
+    padding-top: 60px;
+    padding-bottom: 96px;
+}
+
+.team-title {
+    margin-bottom: 45.27px;
+}
+.team-items {
+}
+.team-item {
+    position: relative;
+    padding: 48px 64px;
+    border-radius: 48px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: -8px -8px 16px 0px #FFF, 9.6px 9.6px 19.2px 0px #D2DCE9;
+    cursor: pointer;
+    
+}
+.team-item__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.team-item__bottom {
+    margin-left: 84px;
+    margin-right: 36px;
+    display: none;
+}
+
+.team-item:not(:last-child) {
+    margin-bottom: 64px;
+}
+.team-item__left {
+    display: flex;
+    align-items: center;
+}
+.team-item-left__image {
+    margin-right: 48px;
+}
+.team-item-left__info {
+}
+
+.team-item-left-info__subtitle {
+    margin-bottom: 13px;
+}
+
+.team-item-left-info__text {
+}
+.team-item__right {
+    border-radius: 52.8px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: -20px -20px 40px 0px #FFF, 24px 24px 48px 0px #D2DCE9;
+    padding: 34px 32px 32px 32px;
+    
+}
+
+
+.team-item-active {
+    padding-bottom: 225px;
+}
+.team-item__right-active {
+    position: absolute;
+    bottom: 51px;
+    right: 56px;
+    transform: rotate(-90deg);
+}
+.team-item__bottom-active {
+    display: block;
+}
+.team-item__top-active {
+    margin-bottom: 80px;
+}
 /* ==============================podhod============================ */
 
 .podhod {
