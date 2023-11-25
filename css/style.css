@@ -1,45 +1,296 @@
-/* ==============================QSTN============================ */
 
-.qstn {
+/* ==============================FIRST============================ */
+
+.first{
+    padding-top: 207px;
 }
-.qstn-title {
+.first-subtitle {
+    color: #36187D;
+    font-size: 27.2px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40.8px; /* 150% */
+    margin-bottom: 30px;
 }
-.qstn-items {
+.first-row {
+    display: flex;
+    align-items: center;
+    
 }
-.qstn-item {
+.first-left {
+    max-width: 475px ;
+    color: #0196E3;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70.4px; /* 110% */
+    border-right: 3px solid #0196E3;
+    margin-right: 78px;
+}
+.first-right {
+    color: #331972;
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26.8px; /* 139.583% */
+    letter-spacing: -0.48px;
+    max-width: 466px;
+}
+.fisrt-btn{
+    margin-top: 123px;
+}
+.fisrt-btn__link {
+  color: #0196E3;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70.4px; /* 391.111% */
+  border-radius: 48px;
+  background: rgba(255, 255, 255, 0.00);
+  box-shadow: -8px -8px 16px 0px #FFF, 9.6px 9.6px 19.2px 0px #D2DCE9;
+  padding: 13px 112px 13px 112px;
+  text-align: center;
+  position: relative;
+  margin-top: 123px;
+}
+
+.fisrt-btn__link::after {
+  content: "";
+  position: absolute;
+  align-items: center;
+  width: 31px;
+  height: 19px;
+  background: url("/images/first/Vector.svg") ;
+  top: 15px;
+  left: 280px;
+}
+/* ==============================FIRST END============================ */
+
+
+
+
+
+/* ==============================TEAM============================ */
+
+
+/* ==============================TEAM END============================ */
+
+.team {
+    padding-top: 60px;
+    padding-bottom: 96px;
+}
+
+.team-title {
+    margin-bottom: 45.27px;
+}
+.team-items {
+}
+.team-item {
+    position: relative;
+    padding: 48px 64px;
+    border-radius: 48px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: -8px -8px 16px 0px #FFF, 9.6px 9.6px 19.2px 0px #D2DCE9;
     cursor: pointer;
     
 }
-.qstn-item__row {
-    padding: 32px;
+.team-item__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 54px;
+
 }
-.qstn-item__question {
+.team-item__bottom {
+    margin-left: 84px;
+    margin-right: 36px;
+    display: none;
 }
-.qstn-item__arrow {
+
+.team-item:not(:last-child) {
+    margin-bottom: 64px;
+}
+.team-item__left {
+    display: flex;
+    align-items: center;
+}
+.team-item-left__image {
+    margin-right: 48px;
+}
+.team-item-left__info {
+}
+
+.team-item-left-info__subtitle {
+    margin-bottom: 13px;
+}
+
+.team-item-left-info__text {
+}
+.team-item__right {
+    border-radius: 52.8px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: -20px -20px 40px 0px #FFF, 24px 24px 48px 0px #D2DCE9;
+    padding: 34px 32px 32px 32px;
     
 }
-.qstn-item__arrow-active {
-transform: rotate(180deg);
-}
 
-.qstn-item__text {
-padding-left: 32px;
-display: none;
+
+.team-item-active {
+    padding-bottom: 225px;
 }
-.qstn-item__text-active {
+.team-item__right-active {
+    position: absolute;
+    bottom: 51px;
+    right: 56px;
+    transform: rotate(-90deg);
+}
+.team-item__bottom-active {
     display: block;
 }
+.team-item__top-active {
+    margin-bottom: 80px;
+}
+/* ==============================podhod============================ */
+
+.podhod {
+    padding-top: 66px;
+    padding-bottom: 90px;
+}
 
 
-/* ==============================QSTN END============================ */
+.podhod-about {
+}
+.podhod-row {
+    display: flex;
+}
+.podhod-left {
+    flex: 50%;
+}
+
+.podhod-left__title {
+    text-align-last: left;
+    margin-bottom: 20px;
+}
+.podhod-left__text {
+  
+}
+.podhod-right {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.podhod-right__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.8px;
+}
+
+.podhod-right-top__left {
+}
+.podhod-right-top__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.podhod-right__polosa {
+    width: 100%;
+    height: 10px;
+    border-radius: 4px;
+    background: rgba(206, 206, 206, 0.40);
+}
+
+.podhod-right__polosaActive {
+    border-radius: 4px;
+    background: #36187D;
+    width: 92%;
+    height: 10px;
+}
+
+
+.reklama-active {
+    width: 71%;
+}
+
+.SEO-active {
+    width: 53%;
+}
+
+/* ==============================podhod END============================ */
 
 
 
 
+/* ==============================GUARD============================ */
+
+.guard {
+    padding-top: 60px;
+    padding-bottom: 34.8px;
+}
+.guard-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guard-text {
+    text-align: center;
+}
+
+
+
+/* ==============================GUARD END============================ */
+
+
+
+
+/* ==============================QUESTION============================ */
+
+.quest {
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+.quest-title {
+    margin-bottom: 45.26px;
+}
+.quest-items {
+}
+.quest-item {
+    margin-left: 32px;
+    margin-right: 32px;
+    cursor: pointer;
+
+}
+.quest-item__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 54px;
+    border-radius: 48px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: -8px -8px 16px 0px #FFF, 9.6px 9.6px 19.2px 0px #D2DCE9;
+    padding: 32px;
+}
+
+
+.quest-item__arrow-active {
+    transform: rotate(180deg);
+}
+
+.quest-item__text {
+    display: none;
+    margin-bottom: 56px;
+   margin-left: 64px;
+   margin-right: 64px;
+ 
+}
+.quest-item__text-active {
+    display: block;
+    
+}
+
+/* ==============================QUESTION END============================ */
 
 /* ==============================CLIENTS============================ */
 
