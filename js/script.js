@@ -74,20 +74,6 @@ console.log(uniqueStudents(students));
 
 
 
-let getGitProfile = async () => {
-    try {
-    let response = await fetch('http://universities.hipolabs.com/search?country=Spain')
-    let dataResponse = await response.json()
-    let newData = dataResponse.map(item => item.name).forEach(item => console.log(`Университет: ${item}`))
-    console.log(newData);
-    }
-    catch (err){
-        console.log(err);
-    }
-}
-
-getGitProfile()
-
 
 let getIpInfo = async () => {
     try {
@@ -115,5 +101,6 @@ let compareNumbers = (a,b) => b - a
 let ages = [2,3,7,5,10,9]
 let res = ages.sort(compareNumbers)
 console.log(res);
+
 
 
